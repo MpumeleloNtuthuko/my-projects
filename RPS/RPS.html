@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="RPS.css">
+    </head>
+    <body>
+        <main>
+            <h2>Click the 'start game' button below to start the game</h2>
+            <button onclick="createElements()">Start game</button>
+            <div class="h-container" id="game-content"></div>
+            <div class="flex-container" id="flex-container-id">
+                <img id="rock" onclick="decider(event)"/>
+                <img id="paper" onclick="decider(event)"/>
+                <img id="scissor" onclick="decider(event)"/>
+            </div>
+            <div id="reset"></div>
+        </main>
+        <script src="RPS.js"></script>
+    </body>
+</html>
